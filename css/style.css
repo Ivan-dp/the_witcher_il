@@ -312,6 +312,7 @@ body {
     }
     .menu-button-active {
         height: 0;
+        z-index: 101;
     }
     .menu-button-active:before {
         transform: rotate(45deg);
@@ -333,6 +334,7 @@ body {
     }
     .header-active {
         display: flex;
+        z-index: 100;
     }
     .logo {
         margin-bottom: 25px;
